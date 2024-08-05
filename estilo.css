@@ -1,9 +1,19 @@
 header{
-	font: Jazz LET, fantasy;
+	font-stretch: Blippo, fantasy;
 	background-image: url(fundo.png.jpeg);
+	height: 1080px;
+	position: center;
 }
 
-
+.links{
+	color: black;
+	-webkit-text-fill-color: rgb(80, 76, 76); 
+	-webkit-text-stroke: 3px black;
+  	font-size: 40px;
+	font-stretch: Jazz LET, fantasy;
+	font-weight: 900;
+	
+}
 
 
 
@@ -20,7 +30,7 @@ header{
 footer{
 			background-color: #fcf6bd;
 			width: 100%;
-        		color: black;
+        	color: black;
 			font-size: 20px;
 			text-align: center;
 			position: absolut;
