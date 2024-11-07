@@ -1,59 +1,84 @@
-nav{
-	font-stretch: Blippo, fantasy;
-}
-
 body{
-	background-image: url(fundo.png);
-	height: 1080px;
-	position: center;
+    background-image: url("fundo.png"), url("terra.png");
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: top, bottom;
 }
-
-.links{
-	text-decoration: none;
-	color: black;
-	-webkit-text-fill-color: rgb(80, 76, 76); 
-	-webkit-text-stroke: 3px black;
-  	font-size: 40px;
-	font-stretch: Jazz LET, fantasy;
-	font-weight: 900;
-	
+#links{
+        color: white;
+        -webkit-text-stroke: 2px black;
+    font-size: 38px;
+        text-decoration: none;
 }
-
-.titulo{
-	color: yellow;
-
+#titulo{
+        text-align: center;
+        font-size: 50px;
+        color: #F0E68C;
+        -webkit-text-stroke: 3px black;
 }
-
-.subtitulo{
-	color: yellow;
-
+#subtitulo{
+    margin-top: -85px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    -webkit-text-stroke: 2px black;
 }
-
-main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+#historia{
+        text-align: center;
+        color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 25px;
+    margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#personagens{
+    text-align: center;
+        color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 25px;
+}
+#comojogar{
+        color: white;
+    -webkit-text-stroke: 2px black;
+        text-align: center;
+    font-size: 25px;
+}
+#personagensname{
+    color: #F0E68C;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    font-size: 25px;
+}
+#paragrafos{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#paragrafo{
+    color: black;
+    margin-left: 700px;
+    font-size: 25px;
+    display: flex;
+    margin-top: -25px;
+}
+#foto1{
+    display: flex;
+}
+#foto2{
+    display: flex;
+}
+#foto3{
+    display: flex;
+}
+#foto4{
+    display: flex;
+}
 footer{
-			background-color: #fcf6bd;
-			width: 100%;
-        	color: black;
-			font-size: 20px;
-			text-align: center;
-			position: absolut;
-			font-size: 16px;
-			font-weight: bold;
-		}
+        background-color: #f5e664;
+        width: 100%;
+        color: black;
+    font-size: 20px;
+        text-align: center;
+    position: absolut;
+        font-weight: bold;
+}
